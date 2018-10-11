@@ -28,7 +28,7 @@
     <?php } ?><br>
   
     <button type="submit">Inserer une conférence</button>
-</form>
+  
 
 
 

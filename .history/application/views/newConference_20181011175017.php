@@ -1,6 +1,5 @@
 
   <br>
-<form role="form" method="post" action="<?php echo base_url('main/registerConf'); ?>">
   <input type="text" value='Numero de la conference' disabled>
     <input type="text" value="<?php echo ($numeroConf[0]->idConf)+1 ?>">
   <input type="text" value="Titre de la conférence" disabled>
@@ -27,8 +26,8 @@
     <input type="checkbox" value="<?php echo $uneTechno->IDTECHNO;?>"> <?php echo $uneTechno->NOMTECHNO;?>    
     <?php } ?><br>
   
-    <button type="submit">Inserer une conférence</button>
-</form>
+    <a href="index.php/main/registerConf"><button>Inserer une conférence</button></a>
+  
 
 
 
